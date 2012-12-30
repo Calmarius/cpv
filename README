@@ -2,7 +2,20 @@ Cubic Panorama Viewer
 
 COMPILATION
 
-USAGE
+You can use the Code::Blocks project files.
+
+Linux
+
+Just compile the _.cpp which is the main file.
+
+g++ -I/usr/include/SDL/ -I3rdparty/OpenGLext/include _.cpp -lGL -lGLU -lpng -lSDL -o cpv
+
+You will need to install libsdl, libpng and libgl development files for the compilation.
+
+Windows
+
+(WIP)
+
 
 cpv <filename>
 
