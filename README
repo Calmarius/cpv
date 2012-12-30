@@ -21,3 +21,12 @@ USAGE
 cpv <filename>
 
 It currently supports only PNG.
+An example image provided.
+
+You can look around by using the arrow keys, and Q and E.
+
+
+KNOWN ISSUES
+
+The movement speed is aribrarily chosen which can be too slow for some computers or insane fast for some others. 
+Change the ANGLE_STEP constant in the applyRotation functions, if you want to change it.
