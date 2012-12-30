@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="_.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="197" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="5179" topLine="199" />
+	</File>
+	<File name="matrix.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="3049" topLine="39" />
+	</File>
+	<File name="vector.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1387" topLine="90" />
+	</File>
+</CodeBlocks_layout_file>

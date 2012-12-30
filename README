@@ -1,0 +1,9 @@
+Cubic Panorama Viewer
+
+COMPILATION
+
+USAGE
+
+cpv <filename>
+
+It currently supports only PNG.
