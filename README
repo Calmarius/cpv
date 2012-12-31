@@ -14,7 +14,10 @@ You will need to install libsdl, libpng and libgl development files for the comp
 
 Windows
 
-(WIP)
+If you have MinGW installed it's basically the same, but in this case you will need to 
+include all paths manually.
+
+g++ -mwindows -I3rdParty/libpng/include -I3rdParty/SDL/include/SDL -I3rdParty/OpenGLext/include -I3rdParty/zlib/include _.cpp libmingw32.a libSDLmain.a libSDL.dll.a libopengl32.a libpng.dll.a libglu32.a -o cpv.exe
 
 USAGE
 
@@ -25,6 +28,7 @@ An example image provided.
 
 You can look around by using the arrow keys, and Q and E.
 
+It outputs text the the stdout. But on Windows it outputs it to a file called stdout.txt (that's because of the SDL).
 
 KNOWN ISSUES
 

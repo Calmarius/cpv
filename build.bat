@@ -1,0 +1,1 @@
+g++ -mwindows -I3rdParty/libpng/include -I3rdParty/SDL/include/SDL -I3rdParty/OpenGLext/include -I3rdParty/zlib/include _.cpp libmingw32.a libSDLmain.a libSDL.dll.a libopengl32.a libpng.dll.a libglu32.a -o cpv.exe
